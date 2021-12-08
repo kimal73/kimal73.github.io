@@ -481,6 +481,7 @@ text-align: center;
 #cookieChoiceInfo {
 top: auto !important; /* Banner in basso */
 bottom: 0 !important; /* Banner in basso */
+display: none	
 }
 
 div#cookieChoiceInfo {
