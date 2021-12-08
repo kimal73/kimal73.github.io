@@ -1,26 +1,9 @@
-<style type='text/css'>
 ----------------------------------------------
 Blogger Template Style
 Name:        Photonic
 Author :     http://www.soratemplates.com
 License:     Free Version
 ----------------------------------------------- */
-/* Variable definitions
------------------------
-<Group description='Main Hover Color' selector='body'>
-<Variable default='#c0af94' description='Primary Color' name='maincolor' type='color' value='#c0af94'/>
-</Group>
-/*****************************************
-reset.css
-******************************************/
-/*Limiting the number of posts in labels page FIND: expr:href=&#39;data:label.url&#39; 
-AND CHANGE WHIT : expr:href=&#39;data:label.url + &#39;?max-results=12&#39; 
-N IS THE
-NUMBER OF POSTS.
-header-wrapper and .post .descript #blog-pager senza background
-*/
-  
-/*----------NEXT AND OLDER DISPLAY NONE -------*/
 .item #blog-pager{display:block}
 .index #blog-pager, .static_page #blog-pager{display:none}  
 /*--------------------------------------------------*/  
@@ -63,7 +46,7 @@ letter-spacing:2px; font-size:13px;background-color:#fff;border:none;}
 	line-height:18px!important;
 	width:100%;
 	letter-spacing:2px;
-	font-family:&#39;Julius Sans One&#39;,Helvetica,sans-serif;
+	font-family:'Julius Sans One' ,Helvetica,sans-serif;
 	font-size:16px!important;
 	border-top: 1px solid rgba(200, 200, 200, .8);
 	border-bottom: 1px solid rgba(200, 200, 200, .8);
@@ -3323,4 +3306,3 @@ ul.gallery-row li{
 .FollowByEmail {
     clear: both;
 }
-</style>
