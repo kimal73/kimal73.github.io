@@ -2616,7 +2616,7 @@ padding: unset;
 #content-wrapper {
     position: relative;
   float:right;
-    width: calc(100% - 305px)!important;/*260*/
+    width: calc(100% - 260px)!important;/*260*/
   margin-left: auto!important;
     margin-right: 0px!important;
 }
@@ -2637,7 +2637,7 @@ div.sora-author-box.row{
   margin:unset!important} 
   
 /*.post-body .entry-content, .blogger-gallery,*/ .item #main-wrapper ,#content-wrapper {
-max-width: calc(100% - 160px)!important;/*150*/
+max-width: calc(100% - 150px)!important;/*150*/
   margin-left: auto!important;
     margin-right: 10px!important;
   }
