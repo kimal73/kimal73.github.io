@@ -3566,7 +3566,7 @@ content:&quot;Back to:&quot;;
   }  
   
  .block-image .thumb {
- margin-top:50px;/*0*/ 
+ margin-top:70px;/*0*/ 
 	 
   }
 
@@ -3582,7 +3582,7 @@ content:&quot;Back to:&quot;;
  /* display:none;*/
   }
 
-.index .post-grid-item {max-width:750px!important;max-height:750px!important}
+.index .post-grid-item {max-width:650px!important}
 
   
   /*.block-image .thumb {aspect-ratio: 1 / 1; height:unset}*/
