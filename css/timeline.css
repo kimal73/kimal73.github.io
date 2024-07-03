@@ -3597,14 +3597,14 @@ content:&quot;Back to:&quot;;
 
  
     @media screen and (min-width:500px)and (max-width:821px)  {
-   .index .post-grid-item {max-width:650px!important;max-height:650px!important}
+   .index .post-grid-item {max-width:420px!important}
   
 } 
 
   
       @media screen and (max-width:499px) {
  .index #content-wrapper {width:100%;margin:auto}
-    .index .post-grid-item {max-width:460px!important;max-height:460px!important}
+    .index .post-grid-item {max-width:300px!important}
   
 } 
   
