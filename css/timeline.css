@@ -3595,9 +3595,12 @@ content:&quot;Back to:&quot;;
   } */
   
 
- 
+     @media screen and (min-width:822px)and (max-width:1920px)  {
+   .index .post-grid-item {max-width:500px!important}
+  
+} 
     @media screen and (min-width:500px)and (max-width:821px)  {
-   .index .post-grid-item {max-width:420px!important}
+   .index .post-grid-item {max-width:400px!important}
   
 } 
 
@@ -4095,7 +4098,7 @@ text-decoration:none;
 /* End  XOmisse Pagination */
 
 /* POST AND PIC BORDER----------------------------------------- */
-  .printpic, .index .post-grid-item {
+  .printpic, .block-image .thumb img {
   /*width: calc(100% - 5px)!important;*/
   border: 15px solid #eff0e5!important}
   
