@@ -3370,7 +3370,7 @@ z-index: 2;*/}
   
 
   
-   /*########################################### custom BLOG search DIMENSIONI REALI ###########################################OFF*/
+   /*########################################### custom BLOG search DIMENSIONI REALI ###########################################OFF
 
 .index .post h2 {display:none} 
 .index .post-grid-item{
@@ -3481,7 +3481,7 @@ content:&quot;Back to:&quot;;
   
 /*#####################################END####################################*/  
   
-     /*########################################### custom BLOG search quad ###########################################
+     /*########################################### custom BLOG search quad ###########################################*/
 
 /*.index .post h2 {display:none} */
 .index .post-grid-item{
@@ -3505,7 +3505,7 @@ content:&quot;Back to:&quot;;
 
 
   
-  .block-image .thumb {aspect-ratio: 1 / 1; height:unset}
+  /*.block-image .thumb {aspect-ratio: 1 / 1; height:unset}*/
   
 /*@media screen and (max-width: 520px) {
   .index .post-grid-item, .archive .post-grid-item {
@@ -3594,9 +3594,9 @@ content:&quot;Back to:&quot;;
   padding:5px;
 }
 .index .post-grid-item {
-  padding-top: 0 !important;
-  margin-bottom: 0 !important;
-  margin-top: 0!important;
+  padding-top: 0!important;
+  margin-bottom: 50px !important;
+  margin-top: 50px!important;
 }
   
 /*--------------------------------------------BACK GROUND BLACK TEXT WHITE*/
