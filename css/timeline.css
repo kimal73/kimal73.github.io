@@ -1901,7 +1901,8 @@ height: auto;
 }
 }
 @media screen and (max-width: 880px) {
-.index .post-grid-item, .archive .post-grid-item {
+.index .post-grid-item
+	, .archive .post-grid-item {
     width: 32%;
 }
 .home #header-wrapper {
