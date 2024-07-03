@@ -4098,8 +4098,7 @@ text-decoration:none;
 /* End  XOmisse Pagination */
 
 /* POST AND PIC BORDER----------------------------------------- */
-  .printpic, .block-image .thumb img {
-  /*width: calc(100% - 5px)!important;*/
+  .printpic, .block-image .thumb {
   border: 15px solid #eff0e5!important}
   
     ::-webkit-scrollbar {
