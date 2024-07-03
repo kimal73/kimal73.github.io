@@ -4093,8 +4093,9 @@ text-decoration:none;
 .index #blog-pager{ margin-top:40px}
 }
 /* End  XOmisse Pagination */
- 
-  .printpic {
+
+/* POST AND PIC BORDER----------------------------------------- */
+  .printpic, .index .post-grid-item {
   /*width: calc(100% - 5px)!important;*/
   border: 15px solid #eff0e5!important}
   
