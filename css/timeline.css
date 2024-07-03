@@ -641,10 +641,11 @@ display: none;
 }
 .Attribution, .feed-links, .post-author.vcard {display:none}
  .post-footer-line.post-footer-line-1, .index .post-footer-line.post-footer-line-3 {
-display: none
+display: block
 }  
+
   
-.item-control {
+.item-control, .post-comment-link {
 display: none !important;
 }
 h2.date-header, h4.date-header {display:none;margin:1.5em 0 .5em}
