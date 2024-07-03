@@ -3249,14 +3249,15 @@ z-index: 2;}
   .modal-item img{cursor:pointer}
    .modal-item {
     width:100%;
-    /*overflow:hidden; */
+    overflow:hidden; 
+  float:left;
   }
 .modal-gallery .miniatur {
 width: 100%;
-/*object-fit: cover;
+object-fit: cover;
 position: relative;
 border: 1.2px solid transparent ;
-z-index: 2;*/}
+z-index: 2;}
   
   .static_page h4{display:none}
  
@@ -3368,7 +3369,89 @@ z-index: 2;*/}
 .modal-gallery .modal-item {border: 0px; border-top: 4px solid transparent}
 }
   
+/*########################### MODAL QUAD ################################# 
+  
+.modal-gallery .miniatur {
+  aspect-ratio: 1 / 1
+}
+  
+  @media screen and (min-width:4100px) {
+.modal-item {
+  max-width: calc(90% / 4);
+  max-width: calc(90% / 4 - 1px);
+}
+  .modal-gallery .modal-item {border: 45px solid transparent}
+  .modal-gallery {max-width:78%;margin:auto}
+}
+  
+@media screen and (max-width:4100px) and (min-width:3850px) {
+.modal-item {
+  max-width: calc(2200px / 4);
+  max-width: calc(2200px / 4 - 1px);
+}
 
+   .modal-gallery .modal-item {border: 40px solid transparent}
+  .modal-gallery {max-width:2200px ;margin:auto}
+}
+  
+@media screen and (max-width:3850px) and (min-width:3000px) {
+.modal-item {
+  max-width: calc(2500px / 4);
+  max-width: calc(2500px / 4 - 1px)
+}
+   .modal-gallery .modal-item {border: 35px solid transparent}
+  .modal-gallery {max-width:2500px;margin:auto}
+}
+  
+@media screen and (max-width:3000px) and (min-width:2588px) {
+.modal-item {
+  max-width: calc(2200px / 4);
+  max-width: calc(2200px / 4 - 1px)
+}
+   .modal-gallery .modal-item {border: 28px solid transparent}
+  .modal-gallery {max-width:2200px;margin:auto}
+}
+
+@media screen and (max-width:2588px) and (min-width:2328px) {
+.modal-item {
+  max-width: calc(100% / 4);
+  max-width: calc(100% / 4 - 1px)
+}
+   .modal-gallery .modal-item {border: 20px solid transparent}
+  .modal-gallery {max-width:100%;margin:auto}
+}
+
+@media screen and (max-width:2328px) and (min-width:2068px) {
+.modal-item {
+  max-width: calc(100% / 4);
+  max-width: calc(100% / 4 - 1px)
+}
+  .modal-gallery .modal-item {border: 20px solid transparent}
+  .modal-gallery {max-width:100%;margin:auto}
+}
+
+@media screen and (max-width:2068px) and (min-width:1808px) {
+.modal-item {
+  max-width: calc(100% / 4);
+  max-width: calc(100% / 4 - 1px)
+}
+  .modal-gallery .modal-item {border: 20px solid transparent}
+  .modal-gallery {max-width:100%;margin:auto}
+}
+
+
+  
+@media screen and (max-width:1808px) and (min-width:1548px) {
+.modal-item {
+  max-width: calc(100% / 4);
+  max-width: calc(100% / 4 - 1px)
+}
+  .modal-gallery .modal-item {border: 20px solid transparent}
+  .modal-gallery {max-width:100%;margin:auto}
+}
+  
+  
+/*###################################### END MODAL QUAD ########################################*/ 
   
    /*########################################### custom BLOG search DIMENSIONI REALI ###########################################OFF
 
@@ -3483,7 +3566,7 @@ content:&quot;Back to:&quot;;
   
      /*########################################### custom BLOG search quad ###########################################*/
 
-/*.index .post h2 {display:none} */
+.index .post h2 {display:none} 
 .index .post-grid-item{
   margin-right:0px;
   margin-bottom:0px;
@@ -3505,7 +3588,7 @@ content:&quot;Back to:&quot;;
 
 
   
-  /*.block-image .thumb {aspect-ratio: 1 / 1; height:unset}*/
+  .block-image .thumb {aspect-ratio: 1 / 1; height:unset}
   
 /*@media screen and (max-width: 520px) {
   .index .post-grid-item, .archive .post-grid-item {
@@ -3594,8 +3677,8 @@ content:&quot;Back to:&quot;;
   padding:5px;
 }
 .index .post-grid-item {
-  padding-top: 0!important;
-  margin-bottom: 0!important;
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
   margin-top: 0!important;
 }
   
