@@ -637,7 +637,7 @@ ul li { list-style-type: disc;  padding: 0 0 0px;  }
 ul ul, ol ol { padding: 0; }
 #navbar-iframe, .navbar {   height:0px;   visibility:hidden;   display:none   }
   .post-footer-line.post-footer-line-3 {
-display: none;
+display: block;
 }
 .Attribution, .feed-links, .post-author.vcard {display:none}
  .post-footer-line.post-footer-line-1, .index .post-footer-line.post-footer-line-3 {
