@@ -630,7 +630,6 @@ code{    font-family: Times, Times New Roman, Liberation serif, Julius Sans One;
 ::-moz-selection {background:transparent; text-shadow:#000 0 0 2px;}
 ::-webkit-selection {background:transparent; text-shadow:#000 0 0 2px;}
 ::-o-selection {background:transparent; text-shadow:#000 0 0 2px;}
-a img{	border: none;}
 ol, ul { padding:0;  margin:0;  text-align: left;  }
 ol li { list-style-type: decimal;  padding:0 0 5px;  }
 ul li { list-style-type: disc;  padding: 0 0 0px;  }
@@ -658,7 +657,6 @@ color: #2e2e2e;
 img {
 max-width: 100%;
 vertical-align: middle;
-border: 0;
 }
 .widget iframe, .widget img {
 max-width: 100%;
@@ -4098,7 +4096,7 @@ text-decoration:none;
 /* End  XOmisse Pagination */
 
 /* POST AND PIC BORDER----------------------------------------- */
-  .printpic, .block-image .thumb {
+  .printpic, .thumb img {
   border: 15px solid #eff0e5!important}
   
     ::-webkit-scrollbar {
