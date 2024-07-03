@@ -3565,15 +3565,19 @@ content:&quot;Back to:&quot;;
   margin-right:0px;
   margin-bottom:0px;
   margin-top:0px;
-  aspect-ratio: 1 / 1;
+  /*aspect-ratio: 1 / 1;*/
   min-height:50px;
   padding:1.2px;
   }  
   
  .block-image .thumb {
- margin-top:50px;/*0*/
-	 float:none;
+ margin-top:50px;/*0*/ 
   }
+
+ .block-image{
+ float: none:
+  }
+
   .block-image .retitle{
   padding-top:0px!important;
   padding-bottom:0px!important;
