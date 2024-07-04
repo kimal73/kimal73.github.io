@@ -4073,7 +4073,7 @@ nav {
 
 /* Start XOmisse Pagination - Custom CSS */
 #blog-pager, .blog-pager {
-display:block;
+display:none;
 padding:5px 0;
 }
 .showpage a, .pagenumber a, .totalpages, .current {
