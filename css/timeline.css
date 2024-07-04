@@ -1,4 +1,4 @@
-<style type='text/css'>
+<style type='text/css'>    
 .item #blog-pager{display:none}
 .static_page #blog-pager{display:block} 
 .index #blog-pager {display:block} 
@@ -3564,10 +3564,7 @@ content:&quot;Back to:&quot;;
   padding:1.2px;
   }  
   
- .block-image .thumb {
- margin-top:70px;/*0*/ 
-	 
-  }
+
 
  .block-image{
  float: none;
@@ -3582,31 +3579,40 @@ content:&quot;Back to:&quot;;
   }
 
 .index .post-grid-item {max-width:650px!important}
-
+  .thumb img {max-height:700px!important; width:auto!important}
+.block-image .thumb {text-align: center; margin-top:90px}
   
-  /*.block-image .thumb {aspect-ratio: 1 / 1; height:unset}*/
   
 /*@media screen and (max-width: 520px) {
   .index .post-grid-item, .archive .post-grid-item {
-
 }
+  
   } */
   
 
      @media screen and (min-width:822px)and (max-width:1920px)  {
    .index .post-grid-item {max-width:500px!important}
-  
+ .thumb img {max-height:650px!important; width:auto!important}
+   .block-image .thumb {
+ margin-top:90px
+  }  
 } 
     @media screen and (min-width:500px)and (max-width:821px)  {
    .index .post-grid-item {max-width:400px!important}
-  
+   .thumb img {max-height:500px!important; width:auto!important}
+   .block-image .thumb {
+ margin-top:80px
+  }
 } 
 
   
       @media screen and (max-width:499px) {
  .index #content-wrapper {width:100%;margin:auto}
     .index .post-grid-item {max-width:300px!important}
-  
+.thumb img {max-height:450px!important; width:auto!important}
+   .block-image .thumb {
+ margin-top:70px
+  } 
 } 
   
 .gallery-item h4 mark{display:none} 
@@ -3925,7 +3931,7 @@ hr {max-width:1180px;width:100%;
 position:relative; margin-top:5px; margin-bottom:5px;
 opacity:0;}
 .onmenu {font-family:&#39;Julius Sans One&#39;,Helvetica,sans-serif; margin:auto; text-align:center; font-size:16px; line-height:34px!important}*/
-  .thumb img {width:100%; border: 15px solid #eff0e5!important}
+  .thumb img {/*width:100%;*/ /*border: 15px solid #eff0e5!important*/}
 /*@media screen and (max-width: 350px) {
 .thumb{height:100%!important}
 }*/
@@ -4060,7 +4066,7 @@ nav {
  /*----------------------------PRELOADER-end-----------------------*/ 
 /*-------------------------COLLEGAMENTI ROSSI--------------------*/
     a {
-  color: rgba(255, 45, 0, 0.7) !important;
+  color: rgba(255, 255, 255, 0.8)!important; 
 } 
  /*---------------------------------end-----------------------------*/
 
@@ -4096,10 +4102,9 @@ text-decoration:none;
 /* End  XOmisse Pagination */
 
 /* POST AND PIC BORDER----------------------------------------- */
-  .printpic {
-  border: 15px solid #eff0e5!important}
- .thumb img {
-  border: 15px solid #eff0e5!important}
+  /*.printpic {
+  border: 15px solid #eff0e5!important}*/
+
   
     ::-webkit-scrollbar {
 width: 5px;
