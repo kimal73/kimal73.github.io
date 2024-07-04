@@ -1163,6 +1163,7 @@ box-sizing: border-box;
 }
 .post-timestamp {
     margin-left: 5px;
+    text-align: center;	
 }
 .label-head {
     margin-left: 5px;
