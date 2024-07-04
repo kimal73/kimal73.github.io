@@ -1,7 +1,7 @@
 <style type='text/css'>    
 .item #blog-pager{display:none}
 .static_page #blog-pager{display:block} 
-.index #blog-pager {display:block} 
+.index #blog-pager {display:block} https://github.com/michelepetrelliart/michelepetrelliart.github.io/edit/main/css/timeline.css
  
 /*--------------------------------------------------*/  
 img {z-index:1}
@@ -3523,7 +3523,7 @@ z-index: 2;}
   .post h2 a {
     color: #000}
   .block-image .post-retitle h2 {
-   text-align:left;
+   text-align:center;
     padding: unset; border:none; width:100%
 }
   .block-image .post-retitle h2 a {text-decoration:none; font-size:14px; font-family: Times, Times New Roman, Liberation serif, Julius Sans One; text-transform: none;
