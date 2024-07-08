@@ -3453,7 +3453,7 @@ z-index: 2;}
   
 /*###################################### END MODAL QUAD ########################################*/ 
   
-   /*########################################### custom BLOG search DIMENSIONI REALI ###########################################OFF
+   /*########################################### custom BLOG search DIMENSIONI REALI ###########################################ON*/
 
 .index .post h2 {display:none} 
 .index .post-grid-item{
@@ -3564,7 +3564,7 @@ content:&quot;Back to:&quot;;
   
 /*#####################################END####################################*/  
   
-     /*########################################### custom BLOG search quad ###########################################*/
+     /*########################################### custom BLOG search quad ###########################################
 
 .index .post h2 {display:none} 
 .index .post-grid-item{
@@ -3590,11 +3590,7 @@ content:&quot;Back to:&quot;;
   
   .block-image .thumb {aspect-ratio: 1 / 1; height:unset}
   
-/*@media screen and (max-width: 520px) {
-  .index .post-grid-item, .archive .post-grid-item {
 
-}
-  } */
   
   @media screen and (min-width:4100px)  {
   .index .post-grid-item {width:calc(100% / 12)!important;}
@@ -3664,12 +3660,6 @@ content:&quot;Back to:&quot;;
   .post-labels {
    position: relative;
   display:none;
- /* top: 0;
-  right: 0;
-  padding:right: 0;
-  float: right;
-  text-align:right;
-  font-size: 16px;*/
   z-index: 9;
   max-width:90px;
   color:#fff;
