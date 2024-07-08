@@ -3615,10 +3615,9 @@ content:&quot;Back to:&quot;;
 }    
 @media screen and (min-width:1260px) and (max-width:1549px) {
     .index .post-grid-item {width:calc(100% / 4)!important;}
-  .block-image .thumb {/*aspect-ratio: 1 / 1; height:unset*/}
+  
 } 
   @media screen and (min-width:822px) and (max-width:1259px) {
-   /*.index #content-wrapper {max-width:700px;margin:auto}*/
     .index .post-grid-item {width:calc(100% / 4)!important;} 
   
 } 
