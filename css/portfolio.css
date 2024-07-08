@@ -3512,7 +3512,7 @@ z-index: 2;}
 	/*.block-image img {max-height:320px;width:auto!important}*/
 } 
   @media screen and (min-width:822px) and (max-width:1259px) {
-    .index .post-grid-item {width:calc(100% / 2)!important;} 
+    .index .post-grid-item {width:calc(100% / 3)!important;} 
   /*.block-image img {max-height:350px;width:auto!important}*/
 } 
   
