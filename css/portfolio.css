@@ -182,7 +182,7 @@ input[type=checkbox]:checked ~ #menu{display:block}
 /* rendo il menù responsivo per adattarlo ai dispositivi più piccoli, fino ad una risoluzione massima di 1258px 
 @media only screen and (max-width: 1258px) {*/
 /* rendo il menù sempre nascosto */
-@media only screen and (max-width: 8000px) {
+@media only screen and (max-width: 1258px) {
   
 #menu{border-radius:0;text-align:center;display:none} 
 
