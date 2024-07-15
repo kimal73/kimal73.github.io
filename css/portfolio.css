@@ -2470,7 +2470,7 @@ max-height:92vh!important;
  .dcolumn:nth-child(1) img {
    vertical-align:middle;
   min-height:20px; 
-  max-height: calc(100vh - 100px): /*per diminuire l' altezza 750px!important;*/
+  max-height: calc(100vh - 100px); /*per diminuire l' altezza 750px!important;*/
   max-height:-moz-cal(100vh - 100px);
   max-height: -webkit-calc(100vh - 100px);
    height:auto;
