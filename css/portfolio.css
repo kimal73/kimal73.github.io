@@ -2470,7 +2470,7 @@ max-height:92vh!important;
  .dcolumn:nth-child(1) img {
    vertical-align:middle;
   min-height:20px; 
-  max-height: 750px!important;/*calc(100vh - 100px): per aumentare altezza*/
+  max-height: calc(100vh - 100px): /*per diminuire l' altezza 750px!important;*/
   max-height:-moz-cal(100vh - 100px);
   max-height: -webkit-calc(100vh - 100px);*/
    height:auto;
@@ -2479,7 +2479,7 @@ max-height:92vh!important;
   
 /*@media screen and (min-width: 1258px) and (max-width: 1400px){
   .dcolumn:nth-child(1) img{ 
-  max-height: 750px!important; /*rimuovi con commento riga per aumentare altezza*/
+  /*max-height: 750px!important; rimuovi commento riga per diminuire altezza*/
   height: 100%;
     line-height: 100%;
     text-align:center
