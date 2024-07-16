@@ -2467,29 +2467,17 @@ max-height:92vh!important;
  
   /*max-height: calc(100vh - 80px); trova questa togli important a questo*/
   
- .dcolumn:nth-child(1) img {
+  .dcolumn:nth-child(1) img {
    vertical-align:middle;
   min-height:20px; 
-  max-height: 720px!important; /*per diminuire l' altezza alternativa 750px!important; per aumentare calc(100vh - 100px)*/
-  /*max-height:-moz-cal(100vh - 100px);
-  max-height: -webkit-calc(100vh - 100px);*/
-	
+  max-height: 720px!important; 
+  max-width: 720px!important; 
    height:auto;
   width:auto;
   }
   
-/*@media screen and (min-width: 1258px) and (max-width: 1400px){
-  .dcolumn:nth-child(1) img{ 
-  max-height: 1080px!important; /*rimuovi commento riga per diminuire altezza - alternativa 750px*/
-  height: 100%;
-    line-height: 100%;
-    text-align:center
-  }
- }*/
- 
   @media screen and (min-width: 720px) and (max-width: 1258px){
 .dcolumn:nth-child(1) img{
-  max-height:720px!important;/*750*/
    height: 100%;
     line-height: 100%;
     text-align:center
@@ -2503,11 +2491,19 @@ max-height:92vh!important;
   @media screen and (min-width: 20px)and (max-width: 720px){
 .dcolumn:nth-child(1) img{
   max-height:460px!important;
-
+  max-width:100%!important;
    }
   }
   
-  
+/*@media screen and (min-width: 1258px) and (max-width: 1400px){
+  .dcolumn:nth-child(1) img{ 
+  max-height: 1080px!important; /*rimuovi commento riga per diminuire altezza - alternativa 750px*/
+  height: 100%;
+    line-height: 100%;
+    text-align:center
+  }
+ }*/
+ 
   /*.separator{margin-top:-20px!important}*/
 /*-----------------------------------------------------*/  
   
