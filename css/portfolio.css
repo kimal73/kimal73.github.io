@@ -2470,7 +2470,7 @@ max-height:92vh!important;
  .dcolumn:nth-child(1) img {
    vertical-align:middle;
   min-height:20px; 
-  max-height: 580px!important; /*per diminuire l' altezza alternativa 750px!important; per aumentare calc(100vh - 100px)*/
+  max-height: 720px!important; /*per diminuire l' altezza alternativa 750px!important; per aumentare calc(100vh - 100px)*/
   /*max-height:-moz-cal(100vh - 100px);
   max-height: -webkit-calc(100vh - 100px);*/
    height:auto;
@@ -2488,7 +2488,7 @@ max-height:92vh!important;
  
   @media screen and (min-width: 720px) and (max-width: 1258px){
 .dcolumn:nth-child(1) img{
-  max-height:580px!important;/*750*/
+  max-height:720px!important;/*750*/
    height: 100%;
     line-height: 100%;
     text-align:center
