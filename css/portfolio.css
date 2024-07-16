@@ -2473,7 +2473,6 @@ max-height:92vh!important;
   max-height: 720px!important; /*per diminuire l' altezza alternativa 750px!important; per aumentare calc(100vh - 100px)*/
   /*max-height:-moz-cal(100vh - 100px);
   max-height: -webkit-calc(100vh - 100px);*/
-  max-width: 720px!important;
    height:auto;
   width:auto;
   }
