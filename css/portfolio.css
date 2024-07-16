@@ -2502,7 +2502,8 @@ max-height:92vh!important;
 
   @media screen and (min-width: 20px)and (max-width: 720px){
 .dcolumn:nth-child(1) img{
-  max-height:460px!important
+  max-height:460px!important;
+max-width: 460px!important;	
    }
   }
   
