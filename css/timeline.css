@@ -3259,7 +3259,7 @@ z-index: 2;}
   z-index:2;
 }
   
- .modal-item img{filter: none}  
+  .modal-item img{filter: brightness(90%);}  
  .modal-item img:hover{filter: brightness(100%);}
   
 
