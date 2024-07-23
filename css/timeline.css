@@ -3271,7 +3271,7 @@ z-index: 2;}
 /*#################################################### Responsive rectangular ###############################*/
 
  .modal-item {
-aspect-ratio: 1 / 1
+aspect-ratio: 1 / 1; overflow: visible;
 }
 .modal-gallery .miniatur{
   aspect-ratio: 1 / 1
