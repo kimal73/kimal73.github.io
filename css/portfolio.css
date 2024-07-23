@@ -3275,31 +3275,7 @@ z-index: 2;}
   
 /*#################################################### Responsive rectangular ###############################*/
 
-@media screen and (min-width:3850px) {
-.modal-item {
-  max-width: calc(3200px / 6);
-    max-width: calc(3200px /6 - 1px);
-   aspect-ratio: 1 / 1
-}
-.modal-gallery .miniatur{
-   max-width: calc(3200px /6);
-   max-width: calc(3200px/6 - 1px);
-   aspect-ratio: 1 / 1
-}
-  .modal-gallery {max-width:3200px;;margin:auto}
-  .modal-gallery .modal-item {border: 8px solid transparent} 
-}
-  
-@media screen and (max-width:3849px) and (min-width:1549px) {
-.modal-item {
-  max-width: calc(100% / 6);
-  max-width: calc(100% / 6 - 1px);
- /* aspect-ratio: 1 / 1*/
-}
-.modal-gallery .miniatur{
-  aspect-ratio: 1 / 1
-}
-}
+
   
 
   
