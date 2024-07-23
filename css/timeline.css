@@ -3306,10 +3306,10 @@ aspect-ratio: 1 / 1; overflow: visible;
   
     @media screen and (min-width:500px)and (max-width:821px)  {
     .modal-item {width:calc(100% / 2)!important;height:unset!important;}
-   .post-body img, .gallery-row img {max-width: 100% !important;
+   .post-body img, .gallery-row img {max-width: 100% !important;}
 } 
   
-     @media screen and (min-width:5px)and (max-width:499px) {
+     @media screen and (max-width:499px) {
      .modal-item {width:calc(100% /2)!important;height:unset}
 }
 } 
