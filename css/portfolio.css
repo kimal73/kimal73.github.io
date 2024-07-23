@@ -3248,8 +3248,7 @@ z-index: 2;}
  .modal-gallery {width:100%; overflow:hidden; max-width:100%}
   .modal-item img{cursor:pointer}
    .modal-item {
-    width:100%;
-    overflow:hidden; 
+    width:100%; 
   float:left;
   }
 .modal-gallery .miniatur {
@@ -3276,7 +3275,7 @@ z-index: 2;}
 /*#################################################### Responsive 1 / 1 ###############################*/
 
  .modal-item {
-aspect-ratio: 1 / 1
+aspect-ratio: 1 / 1;overflow: visible;
 }
 .modal-gallery .miniatur{
   aspect-ratio: 1 / 1
