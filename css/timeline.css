@@ -3259,8 +3259,8 @@ z-index: 2;}
   z-index:2;
 }
   
- .modal-item img{filter: brightness(80%)}  
- .modal-item img:hover{filter: none}
+ .modal-item img{filter: none}  
+ .modal-item img:hover{filter: brightness(100%);}
   
 
  .modal-item{height:auto} 
