@@ -3243,8 +3243,7 @@ z-index: 2;}
  .modal-gallery {width:100%; overflow:hidden; max-width:100%}
   .modal-item img{cursor:pointer}
    .modal-item {
-    width:100%;
-    overflow:hidden; 
+    width:100%; 
   float:left;
   }
 .modal-gallery .miniatur {
