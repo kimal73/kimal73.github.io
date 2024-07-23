@@ -3316,7 +3316,6 @@ aspect-ratio: 1 / 1;overflow: visible;
   
       @media screen and (max-width:499px) {
      .modal-item {width:calc(100% /2)!important;height:unset}
-}
 } 
   
 
