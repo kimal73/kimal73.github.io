@@ -3478,8 +3478,7 @@ aspect-ratio: 1 / 1;overflow: visible;
   margin-bottom:0px;
   margin-top:0px;
   aspect-ratio: 1 / 1;
-  min-height:50px;
-  
+  min-height:50px;  
   padding:4px;
   }  
 
@@ -3503,7 +3502,7 @@ aspect-ratio: 1 / 1;overflow: visible;
  .block-image img {max-width:85%!important; max-height:85%!important; height:auto!important;width:auto!important}
   
 
-  @media screen and (min-width:4100px)  {
+/*  @media screen and (min-width:4100px)  {
   .index .post-grid-item {width:calc(100% / 20)!important;}
   
 } 
@@ -3529,7 +3528,7 @@ aspect-ratio: 1 / 1;overflow: visible;
 } 
   @media screen and (min-width:822px) and (max-width:1259px) {
     .index .post-grid-item {width:calc(100% / 4)!important;} 
-} 
+} */
   
     @media screen and (min-width:500px)and (max-width:821px)  {
     .index .post-grid-item {width:calc(100% / 2)!important;height:unset}
