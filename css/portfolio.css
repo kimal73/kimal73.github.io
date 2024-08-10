@@ -3541,7 +3541,7 @@ aspect-ratio: 1 / 1;overflow: visible;
 } 
   
       @media screen and (max-width:499px) {
-    .index .post-grid-item {width:calc(100% /2)!important;height:unset}
+    .index .post-grid-item {width:calc(100% /1)!important;height:unset}
 .block-image img {max-width:90%!important; max-height:90%!important}
 } 
   
