@@ -496,7 +496,7 @@ display: block
 }
 
 div#cookieChoiceInfo {
-background-color: rgba(150,150,150,0.9) !important; /* Colore di sfondo con trasparenza */
+background-color: rgba(0,0,0,1) !important; /* Colore di sfondo con trasparenza */
 color: #fff !important; /* Colore del testo del messaggio */
 font-weight:bold; /* Grassetto */
 font-family: verdana; /* Famiglia di caratteri */
