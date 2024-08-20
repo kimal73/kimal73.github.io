@@ -496,7 +496,7 @@ display: block
 }
 
 div#cookieChoiceInfo {
-background-color: rgba(0,0,0,1) !important; /* Colore di sfondo con trasparenza */
+background-color: rgba(0,0,0,0.8) !important; /* Colore di sfondo con trasparenza */
 color: #fff !important; /* Colore del testo del messaggio */
 font-weight:bold; /* Grassetto */
 font-family: verdana; /* Famiglia di caratteri */
@@ -506,6 +506,9 @@ line-height: 16px!important;
 .cookie-choices-info .cookie-choices-text{font-family: arial; /* Famiglia di caratteri */
 font-size: 14px!important;
 line-height: 16px!important;
+}
+.cookie-choices-button{
+	color:rgba(255,255,255,0.8) !important;
 }
 
 #cookieChoiceInfo &gt; div &gt; span.cookie-choices-text {color:#fff !important;}
