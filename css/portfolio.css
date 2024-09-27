@@ -2473,8 +2473,8 @@ max-height:92vh!important;
   .dcolumn:nth-child(1) img {
    vertical-align:middle;
   min-height:20px; 
-  max-height: 1024px!important; 
-  max-width: 1024px!important; 
+  max-height: 850px!important; 
+  max-width: 850px!important; 
    height:auto;
   width:auto;
   }
