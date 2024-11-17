@@ -193,7 +193,7 @@ ul li{display:block}
 .top-bar-social {display:none}
   
 /* imposto la larghezza massima per gli elementi dei menu e i links */  
-#menu li .hidden li,#menu li .hidden li a, ul li,ul li a{padding-right:0;padding-left:0;width:100%;border:0px solid black; background-color:white;}
+#menu li .hidden li,#menu li .hidden li a, ul li,ul li a{padding-right:0;padding-left:0;width:100%;border:0px solid black; background-color:transparent;}
   
 /* mostro il sottomenu solo al passaggio del mouse */   
 #menu li .hidden li{display:none}
