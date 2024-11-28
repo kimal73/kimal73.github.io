@@ -188,7 +188,7 @@ input[type=checkbox]:checked ~ #menu{display:block}
 
   #menu li a{border-right:0px}  
 /* rendo gli elementi dei menu elementi di blocco */  
-ul li{display:block}
+#menu ul li{display:block}
 
 .top-bar-social {display:none}
   
