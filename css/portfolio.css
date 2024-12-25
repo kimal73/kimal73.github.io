@@ -392,7 +392,7 @@ display:none;
   }
 /*00000000000000000000000000000000000000000*/
 /*00000000 COMMENTS 000000000000000000000000000*/
-.item #outer-wrapper #comments {display:none!important;} /*nasconde o mostra i commenti nei posts*/
+.item #outer-wrapper #comments {} /*nasconde o mostra i commenti nei posts*/
 
 /*00000000000000000000000000000000000000000*/
 /*00000000 RELATED POST 0000000000000000000*/
