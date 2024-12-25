@@ -2364,7 +2364,7 @@ body {padding-top:0px}
   .index .post-grid-item, .archive .post-grid-item {margin-top:-13px}
   
    h5 {font-size:1.1rem!important;line-height:1.8rem;padding-top:10px}
-   h4 {font-size:1.2rem!important;line-height:1.8rem;text-align:left!important}
+   h4 {font-size:1.2rem;line-height:1.8rem;text-align:left!important}
   h3 {font-size:1.2rem!important;padding-top:30px}
 .insta-wrap, #jugas_footer, .insta-wrap ul li, .insta-wrap ul li a, #jugas_footer ul li a {background-color:#fff!important/*sabbia #c7c5bd burro #dcd9d1*/}
   ul.gallery-row li {background-color:#000}
